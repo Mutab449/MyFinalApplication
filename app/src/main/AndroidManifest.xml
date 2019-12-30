@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfinalapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UpdateMySQLPHP"></activity>
+        <activity android:name=".UpdateMySQL" />
+        <activity android:name=".UpdateSQLiteDB" />
+        <activity android:name=".UpdateSQLite" />
+        <activity android:name=".SearchDB" />
+        <activity android:name=".SearchInDB" />
+        <activity android:name=".DeleteFromDB" />
+        <activity android:name=".ViewListContactsDB" />
+        <activity android:name=".InsertDB" />
+        <activity android:name=".SQLite" />
+        <activity android:name=".SearchPHP" />
+        <activity android:name=".SearchInPHP" />
+        <activity android:name=".DeleteFromPHP" />
+        <activity android:name=".ViewListContentsPHP" />
+        <activity android:name=".DatabaseHelper" />
+        <activity android:name=".User" />
+        <activity android:name=".ManyColumn_ListAdapter" />
+        <activity android:name=".phpConn" />
+        <activity android:name=".InsertPhp" />
+        <activity android:name=".MySQL" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
